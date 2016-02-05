@@ -1,0 +1,16 @@
+{
+  "name": "plugowski/design_patterns",
+  "description": "Design Patterns Examples",
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=5.3.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "plugowski\\DesignPatterns\\": "src/"
+    }
+  }
+}

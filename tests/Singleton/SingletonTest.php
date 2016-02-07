@@ -9,7 +9,7 @@ class SingletonTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function shouldFiredObserverAndUpdateName()
+    public function shouldAlwaysReturnTheSameInstance()
     {
         $obj = Singleton::getInstance();
         $this->assertEquals($obj, Singleton::getInstance());
